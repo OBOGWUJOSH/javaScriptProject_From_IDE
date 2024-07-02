@@ -70,26 +70,35 @@
 
 
 
-let student = "jake";
-let classes = "AM"
-let timeOfClasesTime = ["9:00AM", "11:00AM","1:00PM", "3:00PM", "5:00PM"]
+// let student = "jake";
+// let clasesTime = ["9:00AM", "11:00AM","1:00PM", "3:00PM", "5:00PM"]
 
-function timeOfClasses (a,b){
+// function timeOfClasses(a){
 
-    timeOfClasesTime.forEach((x,y)=>{
-        if (y.contains("AM")){
-        return a,b;
-        
-    }
+//     time = a.forEach((time)=>{
+//         if (time.slice(-2)===("PM"))
+//             console.log(time);
+//     })
+//     //return time;
+// }
 
-
-})
-}
+// timeOfClasses(clasesTime);
 
 
-        
 
-    console.log( timeOfClasses (timeOfClasesTime,classes));
-    //console.log(timeOfClasesTime.filter(timeOfClasses));
+// let davidsDailyExpenses =  {"groceries":150,
+//                             "dining out":100,
+//                             "transportation":50,
+//                             "entertainment":80,}
+
+
+// function davidsExpenses(object){
+//     let sum = 0
+//     for (let items in object){
+//         sum += object[items]
+//     }
+//     return sum;
+// }
+//     console.log(davidsExpenses(davidsDailyExpenses))
 
     
